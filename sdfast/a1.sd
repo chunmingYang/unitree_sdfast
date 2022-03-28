@@ -1,0 +1,20 @@
+language = c
+gravity = 0 -9.8 0
+
+body = body1  inb = $ground  joint = pin
+  mass = 1.013
+  inertia = 0.01013  0  0.01013
+  inbtojoint = 0 0 0
+  bodytojoint = 0  0.1 0
+  pin = 0 0 1
+
+body = body2  inb = body1  joint = pin
+  mass = 0.226
+  inertia = 0.02034  0  0.02034
+  inbtojoint = 0 -0.1 0
+  bodytojoint = 0  0.1 0
+  pin = 0 0 1
+
+
+
+
